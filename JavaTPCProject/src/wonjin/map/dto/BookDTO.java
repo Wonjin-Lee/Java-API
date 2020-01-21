@@ -1,4 +1,4 @@
-package dto;
+package wonjin.map.dto;
 
 public class BookDTO {
 	private String title;

@@ -1,10 +1,11 @@
+package wonjin.map.json;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import dto.BookDTO;
+import wonjin.map.dto.BookDTO;
 
 public class Project01_A {
 	// Object(BookDTO) -> JSON(String)
