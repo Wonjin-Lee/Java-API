@@ -1,3 +1,4 @@
+package wonjin.map.json;
 import java.io.InputStream;
 
 import org.json.JSONArray;
