@@ -16,10 +16,10 @@ public class EchoServer {
 			serverSocket = new ServerSocket(9999);
 			System.out.println("Server ready...");
 		} catch (Exception e) {
-
+			e.printStackTrace();
 		}
 		while(true) {
-			try {
+			try { 
 				Socket socket = serverSocket.accept();
 				System.out.println("Client was successfully connected!");
 				
@@ -41,7 +41,7 @@ public class EchoServer {
 				System.out.println("Client Socket closed...");
 				
 			} catch (Exception e) {
-
+				e.printStackTrace();
 			}
 		}
 	}
